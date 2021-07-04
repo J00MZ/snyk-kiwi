@@ -2,15 +2,18 @@
 Kiwi for summer 🥝🥝  
 Sweet little exercise in bundling up Docker based apps to run on K8s.
 
-## Building the App image
+## Building and running the Apps locally
+### Service A
 ```
-cd <repo_directory>
-docker build -t cherry-syte .
+cd <repo_directory>/service-a
+docker build -t kiwi-snyk-service-a .
+docker run -p 5000:5000 kiwi-snyk-service-a
 ```
-
-## Running the App locally
+### Service B
 ```
-docker run -p 5000:5000 cherry-syte
+cd <repo_directory>/service-b
+docker build -t kiwi-snyk-service-b .
+docker run -p 5000:5000 kiwi-snyk-service-b
 ```
 
 ## Deploy Kubernetes cluster in AWS
