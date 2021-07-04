@@ -2,7 +2,7 @@
 Kiwi for summer 🥝🥝  
 Sweet little exercise in bundling up Docker based apps to run on K8s.
 
-## Building and running the Apps locally
+## Build and Run Apps locally
 ### Service A
 ```
 cd <repo_directory>/service-a
