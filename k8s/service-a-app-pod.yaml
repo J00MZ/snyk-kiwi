@@ -2,12 +2,12 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    kiwi-snyk-service-a.service: app
-  name: app
+    kiwi-snyk-service-a.service: service-a
+  name: service-a
 spec:
   containers:
     - image: kiwi-snyk-service-a:latest
-      name: app
+      name: service-a
       ports:
         - containerPort: 5000
       livenessProbe:
