@@ -1,7 +1,6 @@
 # snyk-kiwi
 Kiwi for summer 🥝🥝
-# Cherry Syte
-Sweet little exercise in bundling up Docker based apps to run on K8s 🍒🍒.
+Sweet little exercise in bundling up Docker based apps to run on K8s.
 
 ## Building the App image
 ```
