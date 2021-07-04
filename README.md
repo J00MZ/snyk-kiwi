@@ -1,5 +1,5 @@
 # snyk-kiwi
-Kiwi for summer 🥝🥝
+Kiwi for summer 🥝🥝  
 Sweet little exercise in bundling up Docker based apps to run on K8s.
 
 ## Building the App image
