@@ -48,7 +48,7 @@ In seperate terminal run
 kubectl apply -f https://raw.githubusercontent.com/hashicorp/learn-terraform-provision-eks-cluster/master/kubernetes-dashboard-admin.rbac.yaml
 kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep service-controller-token | awk '{print $1}')
 ```
-Now copy and past token from last step into the Dashboard UI  
+Now copy and paste token from last step into the Dashboard UI  
 UI can then be accessed at [this link](http://127.0.0.1:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/)
 
 ## Deploy App to Kubernetes
@@ -60,8 +60,8 @@ kubectl port-forward service/app 5000
 Then you can access the application on `localhost:5000`
 
 ## App Functionality
-1. To get the current bitcoin price (From [Coindesk](https://www.coindesk.com/coindesk-api))
-Access the link **`http://localhost:5000/price`** in a browser, or use CURL command
+1. To get the current bitcoin rate in USD (From [Coindesk](https://www.coindesk.com/coindesk-api))
+Access the link **`http://localhost:5000/rate`** in a browser, or use CURL command
 ```
-    curl http://localhost:5000/price
+    curl http://localhost:5000/rate
 ```
