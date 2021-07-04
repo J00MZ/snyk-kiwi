@@ -1,6 +1,6 @@
 # snyk-kiwi
 Kiwi for summer 🥝🥝  
-Sweet little exercise in bundling up Docker based apps to run on K8s.
+Sweet little [exercise](exercise_infra.pdf) in bundling up Docker based apps to run on K8s.
 
 ## Build and Run Apps locally
 ### Service A
