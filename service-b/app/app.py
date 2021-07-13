@@ -12,7 +12,7 @@ def redirect_to_service_a():
     will_redirect = "Hi, I'm Service B! redirecting to service A."
     logger.debug(will_redirect)
     # TODO implement redirect to service here
-    return()
+    return(will_redirect)
 
 @app.route('/')
 @app.route('/<request>')
